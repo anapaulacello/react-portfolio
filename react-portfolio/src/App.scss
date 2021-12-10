@@ -80,9 +80,16 @@
      }
 
   }
+  .App-body_projects-title{
+    padding-top:200px;
+  }
   footer{
+    padding: 80px 0 50px 0;
     min-height:100px;
     width:100%;
+    a{
+      text-decoration: none;
+    }
     .social-media{
       .social-media_img{
         width: 40px;
