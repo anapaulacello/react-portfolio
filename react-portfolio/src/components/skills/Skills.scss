@@ -1,0 +1,10 @@
+.skills-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:30px;
+    gap:30px;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}

@@ -1,0 +1,47 @@
+@import "../../styles/colors";
+.gallery-container{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 200px 30px;
+    gap:30px;
+    .gallery__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 14px;
+        text-align: center;
+        height: 400px;
+        max-width: 300px;
+        padding: 4px;
+        background-color: rgba(245, 245, 245, 0.555);
+        color: black;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        border-radius: 10px;
+        &:hover{
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+        h3{
+            padding: 15px;
+        }
+        p{
+            padding:15px;
+        }
+
+    }
+}
+
+
+
+ @media (min-width:768px){
+    .gallery-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media (min-width:1024px){
+    .gallery-container{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
