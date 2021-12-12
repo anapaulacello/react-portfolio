@@ -28,7 +28,7 @@ function App() {
       {theme === "dark" ?
       <h4 className="App-body_title-two" style={{ "color": "white" }}>Junior Web Developer</h4>:<h4 className="App-body_title-two" style={{ "color": "black" }}>Junior Web Developer</h4>}
       <a className="button" role="button" href="mailto:anapauamoralesdulzaides@gmail.com">contact me</a>
-      <h1 className="App-body_projects-title">Best Projects</h1>
+      <h1 className="App-body_projects-title">Some Projects</h1>
       <Projects></Projects>
       <h2 className="App-body_title">Skills</h2>
       <Skills></Skills>
